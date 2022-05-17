@@ -34,7 +34,6 @@ do {
     {
         case '1':{
             system("cls");
-            char option;
             std::cout << "Would you like to enter (S)tudent or (T)eacher details?: " << std::endl;
             std::cin >> option;
             ignoreCin();
@@ -57,7 +56,6 @@ do {
         
         case '2':{
             system("cls");
-            char option;
             std::cout << "Show (S)tudent, (T)eacher or (A)ll details?: " << std::endl;
             std::cin >> option;
             ignoreCin();
@@ -85,7 +83,6 @@ do {
         
         case '3':{
             system("cls");
-            char option;
             std::cout << "Would you like to search (S)tudent or (T)eacher details?: " << std::endl;
             std::cin >> option;
             ignoreCin();
@@ -108,7 +105,6 @@ do {
         
         case '4':{
             system("cls");
-            char option;
             std::cout << "Would you like to update (S)tudent or (T)eacher details?: " << std::endl;
             std::cin >> option;
             ignoreCin();
@@ -131,7 +127,6 @@ do {
         
         case '5':{
             system("cls");
-            char option;
             std::cout << "Would you like to delete (S)tudent or (T)eacher details?: " << std::endl;
             std::cin >> option;
             ignoreCin();
@@ -160,7 +155,6 @@ do {
         case '7':{
             // s1.addStudent();
             return 0;
-            break;
         }
         
         default:{

@@ -20,28 +20,6 @@ bool student::has_grade(std::string subName) {                  //checks to see 
     return grade_map.count(subName);
 }
 
-// ADDING SUBJECTS
-/*void student::addSubject(subject sub)
-{
-    subjects.push_back(sub);    //adds subject
-};
-
-void student::clearSubjects()
-{
-    subjects.clear();
-}
-
-subject student::getSubject(int index)
-{
-    return subjects[index];
-};
-
-    // taking index of vector
-int student::getSubjectsSize()
-{
-    return subjects.size();   //returns size of vector
-};*/
-
 // ADDING CLUBS
 
 void student::addClub(club act)

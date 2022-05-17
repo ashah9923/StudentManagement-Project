@@ -8,7 +8,7 @@ class club
     std::string activity; 
     
     public:
-    club(std::string activity)
+    explicit club(std::string activity)
     {
         this->activity = activity;
     };
